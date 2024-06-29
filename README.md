@@ -1,10 +1,5 @@
 # Personal Portfolio!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br/>
-
-You can view the Website [Here](https://ayushkhodankar.netlify.app/).
-
-The result of this portfolio is.
 
 <img src="Images/preview.png" alt="preview"/>
 
@@ -19,7 +14,7 @@ Stacks used to develop this webapp is:
 
 - VS Code
 - Git
-- Netlify(Deployed Here)
+- 
 
 
 ## Available Scripts to installation and running the website on local host
@@ -59,4 +54,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Reference for the website is taken from this Repo: [View Here](https://github.com/soumyajit4419/Portfolio)
+Reference for the website is taken from this Repo: [View Here](https://github.com/YashRaj0307)

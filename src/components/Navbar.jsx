@@ -56,12 +56,12 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Ayushkhodankar/portfolio"
+                href="https://github.com/YashRaj0307"
                 target="_blank"
                 className="fork-btn-inner"
                 name={""}
               >
-                Star This Repo
+                Github Profile
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
               </Button>
             </Nav.Item>

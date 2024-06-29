@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.467b48ec.css",
+    "main.js": "/static/js/main.9e801c6e.js",
+    "static/js/511.81417624.chunk.js": "/static/js/511.81417624.chunk.js",
+    "static/media/Ecomm.png": "/static/media/Ecomm.896af8afb0ce7495ee3e.png",
+    "static/media/Payroll.png": "/static/media/Payroll.e74ca1c9f1d97b904ee5.png",
+    "static/media/temp.png": "/static/media/temp.07867cd1ebd8a24725da.png",
+    "static/media/Algo.png": "/static/media/Algo.e7f758f19630e813e5bc.png",
+    "static/media/Encrypt.png": "/static/media/Encrypt.99c186bf1d8ca07806a2.png",
+    "static/media/watch.png": "/static/media/watch.3c5fdd02cbbbf5c2d9db.png",
+    "static/media/pdf.worker.min.mjs": "/static/media/pdf.worker.min.b9e9ecdef9365cecaa25.mjs",
+    "static/media/image.png": "/static/media/image.fd167a0171751f6e7249.png",
+    "static/media/YashSharmaFullStack_resume_com.pdf": "/static/media/YashSharmaFullStack_resume_com.bc987fecf73701c679ee.pdf",
+    "static/media/homeimg.png": "/static/media/homeimg.5d4b2dffe8a76e9edb8e.png",
+    "static/media/pre.svg": "/static/media/pre.56527739ad5edd2624a2.svg",
+    "index.html": "/index.html",
+    "main.467b48ec.css.map": "/static/css/main.467b48ec.css.map",
+    "main.9e801c6e.js.map": "/static/js/main.9e801c6e.js.map",
+    "511.81417624.chunk.js.map": "/static/js/511.81417624.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.467b48ec.css",
+    "static/js/main.9e801c6e.js"
+  ]
+}
