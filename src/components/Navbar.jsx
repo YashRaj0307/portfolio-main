@@ -34,9 +34,12 @@ function NavBar() {
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
+      bg="light" // Add background color here if needed
+      variant="light" // Add variant here if needed
     >
       <Container>
         <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => updateExpanded(!expand)} />
           <Nav className="mx-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
