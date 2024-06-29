@@ -16,7 +16,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'm
-                <strong className="main-name"> Ayush Khodankar</strong>
+                <strong className="main-name"> Yash Sharma</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -24,7 +24,8 @@ function Home() {
                   options={{
                     strings: [
                       "Java Full Stack Developer",
-                      "Frontend Web Development",
+                      "Software Developer",
+                      "Software Engineer",
                     ],
                     autoStart: true,
                     loop: true,

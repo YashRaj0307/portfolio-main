@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import footstore from "../../Assets/Projects/footstore.png";
-import ealert from "../../Assets/Projects/ealert.png";
-import pizza from "../../Assets/Projects/pizza.png";
-import medico from "../../Assets/Projects/medico.png";
-import promanager from "../../Assets/Projects/promanager.png";
+import Encrypt from "../../Assets/Projects/Encrypt.png";
+import watch from "../../Assets/Projects/watch.png";
+import Payroll from "../../Assets/Projects/Payroll.png";
+import Algo from "../../Assets/Projects/Algo.png";
+import temp from "../../Assets/Projects/temp.png";
+import Ecomm from "../../Assets/Projects/Ecomm.png";
 
 function Projects() {
   return (
@@ -17,54 +18,68 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={promanager}
+              imgPath={Algo}
               isBlog={false}
-              title="StudyStream"
-              description="Study Stream is integrated along with live session which will help the students to provide online education to develop and learn new skills at home and make interactions between students and tutors easy and more convenient which is developed in Spring Tool Suite(STS) v3.9.10 along with connection with MySQL for data management."
-              ghLink="https://github.com/Ayushkhodankar/StudyStream"
+              title="Algorithm-Visualizer"
+              description="An interactive web application for visualizing algorithms using HTML, CSS, JS, and React."
+              ghLink="https://github.com/YashRaj0307/Algorithm-Visualizer"
+              demoLink="https://yashraj0307.github.io/Algorithm-Visualizer/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ealert}
+              imgPath={Ecomm}
               isBlog={false}
-              title="E-Alert"
-              description="A proposed bed booking web application can be used by the hospitals for booking the beds in the emergency cases where users can book beds for the patients in case of emergency. This web application is totally developed in Java(Servlets & JSPs),MySQL & locally hosted on Apache Tomcat Server-7  ."
-              ghLink="https://github.com/Ayushkhodankar/Bed-Booking-System"
-              
+              title="E-commerce Website"
+              description="A full-featured e-commerce platform built with Java, React, Spring Boot, MySQL, Postman, and Razorpay integration."
+              ghLink="https://github.com/YashRaj0307/ecommerce-java-full-stack"
+              demoLink="https://github.com/YashRaj0307/ecommerce-java-full-stack/blob/main/README.md"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={medico}
+              imgPath={Payroll}
               isBlog={false}
-              title="Medico"
-              description="An appointment system for the patients for booking the appointments to the doctors along with the doctor dashboard for the queries and appointments of the patients.Java Servlets & JSPs are used to develop the website ,MySQL used to save data locally and Apache Tomcat Server to locally host the website. "
-              ghLink="https://github.com/Ayushkhodankar/AppointmentSystem"
+              title="Employee Payroll System"
+              description="A Java and MySQL-based application for managing employee payroll efficiently."
+              ghLink="https://github.com/YashRaj0307/Employee-Payroll-System"
+              demoLink="https://github.com/YashRaj0307/Employee-Payroll-System/blob/main/README.md"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pizza}
+              imgPath={Encrypt}
               isBlog={false}
-              title="Hut'N Gut"
-              description="A mobile application build with Andriod Studio-Java to order pizzas. In this app the customers can order there own customized pizza according to their requirements."
-              ghLink="https://github.com/Ayushkhodankar/Hut-N-Gut-PizzaStore"
-              //demoLink=""              
+              title="Encryption-Decryption"
+              description="A Java application for secure encryption and decryption of data."
+              ghLink="https://github.com/YashRaj0307/Encryption-Project"
+              demoLink="https://github.com/YashRaj0307/Encryption-Project/blob/master/README.md"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={footstore}
+              imgPath={temp}
               isBlog={false}
-              title="FootStore"
-              description="This web application raises tickets for the issues discovered by the customers and session tracking is integrated along with this website and this website is builded with Java-Servlets & JSPs and locally hosted on Tomcat-7 Server. "
-              ghLink="https://github.com/Ayushkhodankar/Footwear"
+              title="Temperature Convertor"
+              description="A simple Java program to convert temperatures between Celsius, Fahrenheit, and Kelvin."
+              ghLink="https://github.com/YashRaj0307/Temperature-Converter"
+              demoLink="https://github.com/YashRaj0307/Temperature-Converter/blob/main/README.md"
             />
           </Col>
+
+          { <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={watch}
+              isBlog={false}
+              title="Digital Clock"
+              description="A real-time digital clock application developed using Java"
+              ghLink="https://github.com/YashRaj0307/Watch"
+              demoLink="https://github.com/YashRaj0307/Watch/blob/master/README.md"
+          />
+          </Col> }
         </Row>
       </Container>
     </Container>

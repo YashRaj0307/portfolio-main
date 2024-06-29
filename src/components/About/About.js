@@ -38,16 +38,16 @@ function About() {
               <Card.Body>
                 <blockquote className="blockquote mb-0">
                   <p style={{ textAlign: "justify" }}>
-                    Hello, I am <span className="red">Ayush Khodankar</span> a
-                    bachelor's student in{" "}
-                    <span className="red">Information Technology </span>
-                    graduated from R.T.M.Nagpur University from
-                    <span className="red"> Nagpur, India</span>.
+                    Hello, I am <span className="red">Yash Sharma</span> a
+                     student in{" "}
+                    <span className="red">School of Computers</span>
+                    graduated from IPS Academy from
+                    <span className="red"> Indore, India</span>.
                     <br />
                     <br />
                     I have completed my certifications in Java Full Stack
-                    Development & Front-End Web Development . I am currently
-                    learning Cloud Services.
+                    Development & Postman . I am currently
+                    learning Springboot.
                     <br />
                     <br />
                     This is my personal website which I have created to present
@@ -67,18 +67,6 @@ function About() {
         <h1 className="project-heading">Tools Familier With</h1>
         <Toolstack />
 
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-            Contributed Days To Code
-          </h1>
-          <GitHubCalendar
-            username="Ayushkhodankar"
-            blockSize={15}
-            blockMargin={5}
-            color="rgb(30, 152, 10)"
-            fontSize={16}
-          />
-        </Row>
       </Container>
     </Container>
   );
