@@ -4,7 +4,7 @@ import Techstack from "./Techstack";
 import image from "../../Assets/image.png";
 import Toolstack from "./Toolstack";
 import Card from "react-bootstrap/Card";
-import GitHubCalendar from "react-github-calendar";
+
 
 function About() {
   return (

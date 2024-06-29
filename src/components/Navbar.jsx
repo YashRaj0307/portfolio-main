@@ -34,8 +34,7 @@ function NavBar() {
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
-      bg="light" // Add background color here if needed
-      variant="light" // Add variant here if needed
+      
     >
       <Container>
         <Navbar.Collapse id="responsive-navbar-nav">
